@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form action="" method="get" target="_blank" novalidate>
+        <div>
+            <label>Username</label>
+            <input type="text" required placeholder="username" name="usrname" readonly autofocus value="Karim" />
+        </div>
+        <br>
+        <div>
+            <label>passowrd</label>
+            <input type="password" required placeholder="********" name="pass" minlength="8" maxlength="20" />
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" required value="k@nn.sa" name="mail" disabled />
+        </div>
+        <br>
+        <label>color</label>
+        <input type="color" name="color">
+        <br>
+        <label>range</label>
+        <input type="range" min="0" max="200" step="20" value="100">
+        <input type="hidden" value="kdjshjk" name="id">
+        <br>
+        <input type="number" min="2" max="100" step="10" value="10">
+        <br> -->
+        <div>
+            <input id="windows" type="radio" name="os" value="windows" checked>
+            <label for="windows">Windows</label>
+        </div>
+        <div>
+            <input id="linux" type="radio" name="os" value="linux">
+            <label for="linux">linux</label>
+        </div>
+        <div>
+            <input id="mac" type="radio" name="os" value="mac">
+            <label for="mac">mac</label>
+        </div>
+        <br>
+        <div id="languages">
+            <div>
+                <input id="language" type="checkbox" value="html" name="programming language">
+                <label for="language">html</label>
+            </div>
+            <div>
+                <input id="language1" type="checkbox" value="css" name="programming language">
+                <label for="language1">css</label>
+            </div>
+            <div>
+                <input id="language2" type="checkbox" value="java" name="programming language">
+                <label for="language2">java</label>
+            </div>
+            <div>
+                <input id="language3" type="checkbox" value="JS" name="programming language">
+                <label for="language3">JS</label>
+            </div>
+            <div>
+                <input id="language4" type="checkbox" value="python" name="programming language">
+                <label for="language4">python</label>
+            </div>
+
+        </div> -->
+        <div>
+            <label>Upload</label>
+            <input type="file">
+        </div>
+        <div>
+            <label>search</label>
+            <input type="search">
+        </div>
+        <div>
+            <input type="date">
+        </div>
+        <div>
+            <input type="month">
+        </div>
+        <div>
+            <label>time</label>
+            <input type="time">
+        </div>
+        <div>
+            <label> Enter link</label>
+            <input type="url">
+        </div>
+        <div>
+            <label>List </label>
+            <input list="Programming" name="programming">
+            <datalist id="Programming">
+                <option value="C++">
+                <option value="css">
+                <option value="Html">
+                <option value="JS">
+                <option value="python">
+                <option value="C#">
+            </datalist>
+        </div>
+        <div>
+            <label for="books">Choose Book: </label>
+            <select id="books">
+                <optgroup label="PHP">
+                    <option value="v5.0">v5.0</option>
+                    <option value="v7.0">v7.0</option>
+                    <option value="v8.0">v8.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option value="v2.0">v2.0</option>
+                    <option value="v3.0">v3.0</option>
+                    <option value="v8.9">v8.9</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+        <input type="reset">
+        <input type="submit" value="Sumbit">
+    </form>
+</body>
+
+</html>
