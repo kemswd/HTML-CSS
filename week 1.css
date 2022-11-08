@@ -1,0 +1,117 @@
+/*assignment 1 
+div {
+  color: rgb(255, 255, 255);
+  width: 500px;
+  background-color: blueviolet;
+  background-color: #766ec8;
+  background-color: rgb(138, 43, 226);
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.assign-1-shape-2 {
+  width: 500px;
+  background-color: rgb(138, 43, 226, 50%);
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.assign-1-shape-3 {
+  width: 500px;
+  background-color: rgb(138, 43, 226, 10%);
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+} */
+/* assignment 2,3
+div {
+  color: #fff;
+  width: 400px;
+  height: 400px;
+  background-color: #ddd;
+  background-image: url(css-assignment-5-8.png);
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  background-size: 80%;
+}
+.assign-2-shape-2 {
+  width: 400px;
+  height: 400px;
+  background-image: url(css-assignment-5-8.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+.assign-2-shape-3 {
+  width: 400px;
+  height: 400px;
+  background-image: url(css-assignment-5-8.png);
+  background-repeat: repeat-y;
+  background-position: right;
+}
+.assign-2-shape-4 {
+  width: 400px;
+  height: 400px;
+  background-image: url(css-assignment-5-8.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%;
+} */
+/* assignment 4
+div {
+  width: auto;
+  background-color: #ddd;
+  padding: 5px;
+  border: 5px solid red;
+  margin: 5px;
+  outline: 5px solid black;
+  display: inline-block;
+}
+.s2 {
+  border-color: blue green;
+  border-style: ridge;
+}
+.s3 {
+  border-color: red green blue yellow;
+  border-style: dashed;
+} */
+/* assignment 5
+div {
+  width: 400px;
+  background-color: #ddd;
+  padding: 5px;
+  border-left: 3px solid rgba(238, 15, 175, 0.909);
+  margin: 20px;
+  outline: 5px solid #ddd;
+}
+.note2 {
+  visibility: hidden;
+}
+.note3 {
+  border-left: 3px solid rgba(12, 168, 119, 0.863);
+} */
+/* assignment 6 
+.child .title {
+  color: red;
+}
+p,
+body .title {
+  color: green;
+}
+.parent span {
+  color: blue;
+} */
+html {
+  font-size: 20px;
+}
+div {
+  text-align: center;
+}
+.one {
+  font-size: 2.5rem;
+}
+.two {
+  font-size: 2rem;
+}
+.three {
+  font-size: 1.5rem;
+}
